@@ -65,6 +65,18 @@ export default {
         titulo: 'Botiquín de primeros auxilios ',
         desarrolloContenidos: true,
       },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Botiquín de primeros auxilios ',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Botiquín de primeros auxilios ',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       {

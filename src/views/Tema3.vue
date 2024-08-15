@@ -36,6 +36,58 @@
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 3.1 Clasificación
     p.mb-5(data-aos='fade-right') Los esguinces se clasifican según su gravedad en tres grados:
+    TabsC.color-acento-contenido.mb-5
+      .py-4.py-md-5(titulo="Grado I" style="background-color: #eaf3fd")
+        .row.justify-content-center
+          .col-lg-6.mb-4.mb-md-0
+            h5 Grado I
+            p Distensión parcial del ligamento, sin rotura. Puede haber inflamación y dolor leve con movimientos limitados.
+          .col-lg-4.col-7: img(src='@/assets/curso/temas/14.svg', alt='')
+      .py-4.py-md-5(titulo="Grado II" style="background-color: #eaf3fd")
+        .row.justify-content-center
+          .col-lg-6.mb-4.mb-md-0
+            h5 Grado II
+            p Rotura parcial o total de los ligamentos. Movimiento limitado debido a dolor intenso.
+          .col-lg-4.col-7: img(src='@/assets/curso/temas/15.svg', alt='')
+      .py-4.py-md-5(titulo="Grado III" style="background-color: #eaf3fd")
+        .row.justify-content-center
+          .col-lg-6.mb-4.mb-md-0
+            h5 Grado III
+            p Rotura total del ligamento, requiere tratamiento quirúrgico. Produce dolor severo y limitación total de la extremidad.
+          .col-lg-4.col-7: img(src='@/assets/curso/temas/16.svg', alt='')
+    Separador
+    #t_3_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 3.2 Tratamiento inicial de esguinces
+    p.mb-5(data-aos='fade-right') El tratamiento inicial de un esguince es crucial para reducir el dolor y la inflamación, y para prevenir complicaciones mayores. Los pasos a seguir incluyen:
+    .row.justify-content-center.mb-5
+      .col-lg-6.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/17.png', alt='')
+      .col-lg-6
+        .row.justify-content-center.mb-3
+          .col-lg-6
+            .tarjeta.p-4.tarjeta-hover
+              .row.justify-content-center.align-items-center
+                .col-2.col-lg-4: img(src='@/assets/curso/temas/13.svg', alt='')
+                .col-lg-8
+                  p.mb-0 Reposo.
+          .col-lg-6
+            .tarjeta.p-4.tarjeta-hover
+              .row.justify-content-center.align-items-center
+                .col-2.col-lg-4: img(src='@/assets/curso/temas/13.svg', alt='')
+                .col-lg-8
+                  p.mb-0 Inmovilización.
+        .row.justify-content-center.mb-3
+          .col-lg-6
+            .tarjeta.p-4.tarjeta-hover.h-100
+              .row.justify-content-center.align-items-center
+                .col-2.col-lg-4: img(src='@/assets/curso/temas/13.svg', alt='')
+                .col-lg-8
+                  p.mb-0 Aplicación de hielo.
+          .col-lg-6
+            .tarjeta.p-4.tarjeta-hover
+              .row.justify-content-center.align-items-center
+                .col-2.col-lg-4: img(src='@/assets/curso/temas/13.svg', alt='')
+                .col-lg-8
+                  p.mb-0 Elevación de la extremidad.
 
 
 </template>
