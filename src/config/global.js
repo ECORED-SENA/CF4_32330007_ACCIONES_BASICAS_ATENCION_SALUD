@@ -1,17 +1,23 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'Primeros auxilios para lesiones osteomusculares y heridas ',
+    descripcionCurso:
+      'Este componente aborda el manejo inicial de lesiones osteomusculares y heridas. Se detallan los tipos de fracturas, luxaciones, y esguinces, junto con sus síntomas y tratamientos. Incluye instrucciones para la inmovilización y vendajes, así como el manejo de heridas leves y graves. El objetivo es prevenir complicaciones y proporcionar primeros auxilios adecuados hasta la llegada de ayuda profesional.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -31,13 +37,18 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Primeros auxilios y evaluación de la escena',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Actitud del auxiliador y valoración de la escena',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: '¿Qué debe hacer un primer auxiliador?',
+            hash: 't_1_2',
           },
         ],
       },
@@ -45,13 +56,13 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Cinemática del trauma ',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Botiquín de primeros auxilios ',
         desarrolloContenidos: true,
       },
     ],
@@ -102,32 +113,121 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Primeros auxilios y evaluación de la escena',
+      referencia:
+        'Martín Villaoslada, O. & Arenal Laza, C. (2020). Primeros auxilios. MF0272: ( ed.). Editorial Tutor Formación.',
+      tipo: 'Capítulo 1',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/125938',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Actitud del auxiliador y valoración de la escena',
+      referencia:
+        'Agencia Nacional de Seguridad Vial (2023). MÓDULO 1 - DEBERES PRIMER RESPONDIENTE. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/4JudaYDBcho?feature=shared',
+    },
+    {
+      tema: '¿Qué debe hacer un primer auxiliador?',
+      referencia:
+        'Tejero Fernández, J. (2022). Primeros auxilios. AFDA0211: (2 ed.). IC Editorial.',
+      tipo: 'Capítulo 3',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/227699',
+    },
+    {
+      tema: 'Cinemática del trauma',
+      referencia:
+        'Centro Nacional Operativo en Salud. (2015). CINEMATICA DEL TRAUMA 2. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=yO_K1wqTQ6c&ab_channel=CentroNacionalOperativoenSalud',
+    },
+    {
+      tema: 'Botiquín de primeros auxilios',
+      referencia:
+        'Facultad de Medicina UNAM (2018). Botiquín. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=t5S7zmerXD4&ab_channel=Prevenci%C3%B3nSalud',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Escena',
+      significado:
+        'ambiente en el que se produjo la lesión y que se debe valorar.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Evacuación',
+      significado:
+        'acción tendiente a establecer una barrera (distancia) entre una fuente de riesgo y las personas amenazadas, mediante el desplazamiento de estas.',
+    },
+    {
+      termino: 'Explosión',
+      significado:
+        'liberación brusca de una gran cantidad de energía con desprendimiento de calor, luz y gases.',
+    },
+    {
+      termino: 'Incendio',
+      significado:
+        'fenómeno que se presenta cuando uno o varios materiales combustibles o inflamables son consumidos de forma incontrolada por el fuego, generando pérdidas de vidas humanas, animales y bienes materiales.',
+    },
+    {
+      termino: 'Posible',
+      significado:
+        'amenaza que, según el diagnóstico de sus condiciones inherentes, no ha sucedido, pero puede llegar a ocurrir.',
+    },
+    {
+      termino: 'Primeros auxilios',
+      significado:
+        'son aquellas primeras medidas o cuidados adecuados que se ponen en práctica en forma provisional tan pronto se reconoce una emergencia.',
+    },
+    {
+      termino: 'Recurso',
+      significado:
+        'son las personas, elementos, equipos y herramientas con los cuales se cuenta para evitar un desastre y atender correctamente la situación en peligro.',
+    },
+    {
+      termino: 'Riesgo',
+      significado:
+        'probabilidad de que un objeto, sujeto, materia, sustancia o fenómeno pueda perturbar la integridad física de la persona o el medio.',
+    },
+    {
+      termino: 'Testigo',
+      significado:
+        'persona que presencia o adquiere directo y verdadero conocimiento de algo.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Fernández-Villacañas Martín, M. D. (2013). Primeros auxilios: ( ed.). Macmillan Iberia, S.A.',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/42972',
+    },
+    {
+      referencia:
+        'Pérez Aguilera, M. D. M. (2013). Primeros auxilios: ( ed.). Editorial CEP, S.L.',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/50755',
+    },
+    {
+      referencia:
+        'Seguridad del paciente. (2016). Guía curricular sobre seguridad del paciente.',
       link: '',
+    },
+    {
+      referencia:
+        'Torres Nieto, H. (2012). Manual de primeros auxilios y brigadas de emergencia: ( ed.). Fundación Universitaria del Área Andina.',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/70932',
+    },
+    {
+      referencia:
+        'Urgencias y emergencias médicas tanto para el personal paramédico y médico. (2013). Evaluación de la escena por un primer respondiente.',
+      link:
+        'http://urgenciasyemergenciasmedicas.blogspot.com/2013/01/3-evaluacion-de-la-escena-por-un-primer.html',
     },
   ],
   creditos: [
@@ -136,12 +236,12 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del ecosistema',
+          cargo: 'Responsable del Ecosistema',
           centro: 'Dirección General',
         },
         {
           nombre: 'Olga Constanza Bermúdez Jaimes',
-          cargo: 'Responsable de línea de producción',
+          cargo: 'Responsable de Línea de Producción',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -150,8 +250,13 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Luz María Cardona Correa',
+          cargo: 'Experta temática',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'valuadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -160,18 +265,18 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
+          nombre: 'Carlos Julián Ramírez Benítez',
+          cargo: 'Diseñador de Contenidos Digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador <i>full stack</i>',
+          nombre: 'Edgar Mauricio Cortes Garcia',
+          cargo: 'Desarrollador <em>Full stack</em>',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y productor audiovisual',
+          nombre: 'Edgar Mauricio Cortes Garcia',
+          cargo: 'Actividad Didáctica',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -181,22 +286,17 @@ export default {
       autores: [
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Jaime Hernán Tejada Llano',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          cargo: 'Validador de Recursos Educativos Digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Margarita Marcela Medrano Gómez',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],

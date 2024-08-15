@@ -2,12 +2,17 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 15%
+    right: 70%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
+    top: 21%
+    right: 10%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 56%
     right: 30%
 
 
@@ -17,4 +22,69 @@
 
   100%
     transform: translateY(0px)
+
+
+i.fas.fa-circle:before
+  content: url(../assets/curso/temas/corazon.svg) !important
+
+.titulo-tres
+  position: relative
+  background-color: #FFB27E
+  border-bottom: 5px solid #D7F38D
+  border-radius: 0px 20px 0px 0px 
+  display: inline-block
+  padding: .8rem
+  margin-bottom: 2rem
+  &::before
+    content: url(../assets/curso/temas/icon.svg)
+    position: absolute
+    top: 0
+    left: 0
+    transform: translate(-40%,-10%)
+    
+  h3 
+    margin-bottom: 0
+    margin-left: 40px
+    margin-right: 20px
+.fondo-slyder
+  background-image: url(../assets/curso/temas/fondo-slyder.png)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: start
+  margin: 0 -3rem 
+.fondo-degrade
+  background-image: url(../assets/curso/temas/fondo-degrade.png)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: start
+  margin: 0 -3rem 
+.fondo-tarjeta
+  background-image: url(../assets/curso/temas/fondo-tarjeta.svg)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: start
+.fondo-1
+  background-image: url(../assets/curso/temas/fondo-1.png)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: start
+.fondo-2
+  background-image: url(../assets/curso/temas/fondo-2.png)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: start
+.fondo-intro
+  background-image: url(../assets/curso/temas/fondo-intro.png)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: start
+.fondo-3
+  background-image: url(../assets/curso/temas/fondo-3.png)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: start
+.fa-chevron-right:before
+  content: url(../assets/curso/temas/flecha2.svg)
+.fa-chevron-left:before
+  content: url(../assets/curso/temas/flecha1.svg)
 
