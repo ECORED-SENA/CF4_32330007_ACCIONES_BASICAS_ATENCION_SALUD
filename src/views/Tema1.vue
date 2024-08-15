@@ -79,9 +79,48 @@
     .row.justify-content-center.mb-5
       .col-lg-6.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/12.png', alt='')
       .col-lg-6(data-aos="fade-left")
-        .row.justify-content-center.mb-5
-          .col-lg-4
-            .tarjeta.p-
+        .row.justify-content-center.mb-3
+          .col-lg-6
+            .tarjeta.p-4.tarjeta-hover
+              .row.justify-content-center.align-items-center
+                .col-2.col-lg-4: img(src='@/assets/curso/temas/13.svg', alt='')
+                .col-lg-8
+                  p.mb-0 Dolor
+          .col-lg-6
+            .tarjeta.p-4.tarjeta-hover
+              .row.justify-content-center.align-items-center
+                .col-2.col-lg-4: img(src='@/assets/curso/temas/13.svg', alt='')
+                .col-lg-8
+                  p.mb-0 Deformidad
+        .row.justify-content-center.mb-3
+          .col-lg-6
+            .tarjeta.p-4.tarjeta-hover
+              .row.justify-content-center.align-items-center
+                .col-2.col-lg-4: img(src='@/assets/curso/temas/13.svg', alt='')
+                .col-lg-8
+                  p.mb-0 Hinchazón
+          .col-lg-6
+            .tarjeta.p-4.tarjeta-hover
+              .row.justify-content-center.align-items-center
+                .col-2.col-lg-4: img(src='@/assets/curso/temas/13.svg', alt='')
+                .col-lg-8
+                  p.mb-0 Incapacidad para usar la extremidad
+        .row
+          .col-lg-6
+            .tarjeta.p-4.tarjeta-hover
+              .row.justify-content-center.align-items-center
+                .col-2.col-lg-4: img(src='@/assets/curso/temas/13.svg', alt='')
+                .col-lg-8
+                  p.mb-0 Moretones
+    Separador
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 1.2 Manejo inicial de las fracturas
+    p.mb-5(data-aos='fade-right') El manejo inicial consiste en una adecuada inmovilización para prevenir complicaciones mayores. Las recomendaciones para un primer respondiente incluyen:
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Leyenda del video
+        
 
 
 
