@@ -136,3 +136,33 @@ span.azul
     background-color: #2b63a8
     p
       color: white
+.tarjeta-slide__img
+  background-size: cover
+  background-repeat: no-repeat
+.tarjetas-fondo-azul
+  position: relative
+  &:before
+    content: ''
+    background: #1e4678
+    height: 50%
+    width: 100%
+    position: absolute
+    top: 0
+    left: 0 
+    
+    border-radius: 20px
+    z-index: 2
+    transform: translateY(40%)
+  .contenedor
+    position: relative
+    z-index: 10
+.mn
+  margin: 0 -3rem
+.t-1
+  background-image: url(../assets/curso/temas/t-2.svg)
+  background-position: start
+  background-repeat: no-repeat
+  background-size: cover
+  transition: background-image .2s ease-in-out
+  &:hover
+    background-image: url(../assets/curso/temas/t-1.svg)

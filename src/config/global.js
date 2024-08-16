@@ -9,15 +9,15 @@ export default {
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
       },
       {
         clases: ['banner-principal-decorativo-3'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -37,17 +37,17 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Primeros auxilios y evaluación de la escena',
+        titulo: 'Lesiones osteomusculares',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Actitud del auxiliador y valoración de la escena',
+            titulo: 'Fracturas',
             hash: 't_1_1',
           },
           {
             numero: '1.2',
-            titulo: '¿Qué debe hacer un primer auxiliador?',
+            titulo: 'Manejo inicial de las fracturas',
             hash: 't_1_2',
           },
         ],
@@ -56,25 +56,37 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Cinemática del trauma ',
+        titulo: 'Luxaciones ',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Botiquín de primeros auxilios ',
+        titulo: 'Esguince ',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Clasificación',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Tratamiento inicial de esguinces',
+            hash: 't_3_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Botiquín de primeros auxilios ',
+        titulo: 'Inmovilizaciones y vendajes ',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: 'Botiquín de primeros auxilios ',
+        titulo: 'Heridas ',
         desarrolloContenidos: true,
       },
     ],

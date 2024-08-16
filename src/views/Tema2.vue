@@ -40,24 +40,24 @@
     p.mb-5(data-aos='fade-right') El primer respondiente debe: 
     .row.justify-content-center.mb-5
       .col-lg-3.mb-lg-0.mb-3
-        .tarjeta.p-4.color-secundario.h-100 
+        .tarjeta.p-4.t-1.h-100 
           .row.justify-content-center.mb-5
             .col-5: img(src='@/assets/curso/temas/15.svg', alt='')
           p.text-center Inmovilizar la articulación afectada
       .col-lg-3.mb-lg-0.mb-3
-        .tarjeta.p-4.color-secundario.h-100 
+        .tarjeta.p-4.t-1.h-100 
           .row.justify-content-center.mb-5
-            .col-5: img(src='@/assets/curso/temas/15.svg', alt='')
+            .col-5: img(src='@/assets/curso/temas/16.svg', alt='')
           p.text-center Colocar al lesionado en una posición cómoda hasta su traslado, para evitar dolor.
       .col-lg-3.mb-lg-0.mb-3
-        .tarjeta.p-4.color-secundario.h-100 
+        .tarjeta.p-4.t-1.h-100 
           .row.justify-content-center.mb-5
-            .col-5: img(src='@/assets/curso/temas/15.svg', alt='')
+            .col-5: img(src='@/assets/curso/temas/17.svg', alt='')
           p.text-center Colocar al lesionado en una posición cómoda hasta su traslado, para evitar dolor.
       .col-lg-3.mb-lg-0.mb-3
-        .tarjeta.p-4.color-secundario.h-100 
+        .tarjeta.p-4.t-1.h-100 
           .row.justify-content-center.mb-5
-            .col-5: img(src='@/assets/curso/temas/15.svg', alt='')
+            .col-5: img(src='@/assets/curso/temas/18.svg', alt='')
           p.text-center Colocar al lesionado en una posición cómoda hasta su traslado, para evitar dolor.
 
 

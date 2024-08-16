@@ -26,8 +26,57 @@
             p.mb-0 	Lesiones internas no visibles, pueden comprometer órganos y causar hemorragias graves.
     h4 La clasificación de heridas
     p.mb-5(data-aos='fade-right') Las heridas se clasifican según su naturaleza y las características de los tejidos afectados. A continuación, se presentan los tipos principales de heridas:
-    //TODO! PENDIENTES CARDS 
-
+    .tarjetas-fondo-azul.mn
+      .contenedor.p-5
+        .row.justify-content-center.mb-5
+          .col-lg-3.mb-4.mb-xl-0
+            .tarjeta.tarjeta-slide.abajo.bg-white(@mouseover="indicadorTarjetaSlide = false")
+              .tarjeta-slide__contenedor
+                .tarjeta-slide__img.p-5.d-flex(:style="{'background-image': `url(${require('@/assets/curso/temas/f1.png')})`}")
+                  .d-flex.align-items-end.w-100.justify-content-center
+                    .d-inline-block(style="background-color: #ffb27e").p-2
+                      h5.mb-0.text-center Incisas o cortantes
+                .tarjeta-slide__contenido.p-5.p-xl-5.bg-white
+                  .d-flex.align-items-end.w-100.justify-content-center
+                    .d-inline-block(style="background-color: #ffb27e").p-2.mb-3
+                      h5.mb-0 Incisas o cortantes
+                  p.mb-0.text-center Producen hemorragia moderada o abundante, son superficiales y tienen bordes limpios.
+          .col-lg-3.mb-4.mb-xl-0
+            .tarjeta.tarjeta-slide.abajo.bg-white(@mouseover="indicadorTarjetaSlide = false")
+              .tarjeta-slide__contenedor
+                .tarjeta-slide__img.p-5.d-flex(:style="{'background-image': `url(${require('@/assets/curso/temas/f2.png')})`}")
+                  .d-flex.align-items-end.w-100.justify-content-center
+                    .d-inline-block(style="background-color: #ffb27e").p-2
+                      h5.mb-0 Contusas
+                .tarjeta-slide__contenido.p-5.p-xl-5.bg-white
+                  .d-flex.align-items-end.w-100.justify-content-center
+                    .d-inline-block(style="background-color: #ffb27e").p-2.mb-3
+                      h5.mb-0 Contusas
+                  p.mb-0.text-center Generalmente no sangran, tienen bordes irregulares y son causadas por golpes.
+          .col-lg-3.mb-4.mb-xl-0
+            .tarjeta.tarjeta-slide.abajo.bg-white(@mouseover="indicadorTarjetaSlide = false")
+              .tarjeta-slide__contenedor
+                .tarjeta-slide__img.p-5.d-flex(:style="{'background-image': `url(${require('@/assets/curso/temas/f3.png')})`}")
+                  .d-flex.align-items-end.w-100.justify-content-center
+                    .d-inline-block(style="background-color: #ffb27e").p-2
+                      h5.mb-0 Punzantes
+                .tarjeta-slide__contenido.p-5.p-xl-5.bg-white
+                  .d-flex.align-items-end.w-100.justify-content-center
+                    .d-inline-block(style="background-color: #ffb27e").p-2.mb-3
+                      h5.mb-0 Punzantes
+                  p.mb-0.text-center Profundas, causadas por objetos puntiagudos, pueden producir sangrado moderado y dañar tejidos profundos.
+          .col-lg-3.mb-4.mb-xl-0
+            .tarjeta.tarjeta-slide.abajo.bg-white(@mouseover="indicadorTarjetaSlide = false")
+              .tarjeta-slide__contenedor
+                .tarjeta-slide__img.p-5.d-flex(:style="{'background-image': `url(${require('@/assets/curso/temas/f4.png')})`}")
+                  .d-flex.align-items-end.w-100.justify-content-center
+                    .d-inline-block(style="background-color: #ffb27e").p-2
+                      h5.mb-0 Por raspones
+                .tarjeta-slide__contenido.p-5.p-xl-5.bg-white.h-100
+                  .d-flex.align-items-end.w-100.justify-content-center
+                    .d-inline-block(style="background-color: #ffb27e").p-2.mb-3
+                      h5.mb-0 Por raspones
+                  p.mb-0.text-center Ocasionadas por fricción, provocan desgarros y desgaste en la piel.
     .titulo-tres: h3 Manejo de heridas leves
     p.mb-5(data-aos='fade-right') El manejo adecuado de las heridas leves es esencial para prevenir infecciones y promover una cicatrización rápida y efectiva. #[span.azul A continuación, se detallan los pasos básicos para tratar heridas leves:]   
     .fondo-slyder2.p-5.mb-4

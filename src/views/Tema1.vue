@@ -13,6 +13,7 @@
           .col-lg-7
             .p-5(style="background-color: #d7f38d ").h-100
               p.mb-0 Las lesiones osteomusculares incluyen daños en los huesos, las articulaciones y los músculos. Es crucial tratarlas adecuadamente para evitar lesiones permanentes. Las principales lesiones del sistema osteomuscular son fracturas, esguinces y luxaciones.
+      .col-lg-3.col-5: img(src='@/assets/curso/temas/c1.png', alt='')
     Separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.1 Fracturas

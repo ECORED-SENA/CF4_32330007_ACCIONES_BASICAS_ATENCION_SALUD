@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="Síntesis  sobre la valoración y seguridad de la escena, destacando al primer respondiente, quién puede ser, las características del primer auxiliador y sus acciones clave: identificarse, prevenir, alertar, examinar y vigilar.")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Diagrama de lesiones osteomusculares que abarca fracturas, esguinces y luxaciones. Cada categoría presenta sus tipos y síntomas. Las fracturas se dividen en cerradas y abiertas, mientras que los esguinces se clasifican en grados 1, 2 y 3. Las luxaciones detallan síntomas como inflamación, dolor y pérdida de funcionalidad en la extremidad.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Síntesis.pdf')" target="_blank")
           .anexo__icono
