@@ -23,26 +23,26 @@ export default {
       preguntas: [
         {
           id: 1,
-          texto: '¿Quién puede ser un primer respondiente?',
-          imagen: require('@/assets/componentes/pregunta-img/Grupo 1103014.png'),
-          barajarRespuestas: false,
+          texto: '¿Cuál es la característica principal de una fractura de tallo verde?',
+          imagen: require('@/assets/componentes/pregunta-img/p1.png'),
+          barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Solo profesionales de la salud.',
+              texto: 'Es una fractura incompleta, característica de los niños.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Cualquier persona capacitada o testigo del evento.',
+              texto: 'El hueso se rompe en varios pedazos.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Solo miembros de la familia.',
+              texto: 'Forma un ángulo respecto al eje del hueso.',
               esCorrecta: false,
             },
-            { id: 'd', texto: 'Solo policías.', esCorrecta: false },
+            { id: 'd', texto: 'Crea una ruptura limpia y directa.', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
           mensaje_incorrecto:
@@ -50,28 +50,28 @@ export default {
         },
         {
           id: 2,
-          texto: '¿Cuál es una de las características del primer auxiliador?',
-          imagen: require('@/assets/componentes/pregunta-img/Grupo 1103016.png'),
+          texto: '¿Qué tipo de fractura se presenta en un ángulo recto respecto al eje del hueso?',
+          imagen: require('@/assets/componentes/pregunta-img/p2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'No debe tener ningún deseo de ayudar.',
+              texto: 'Fractura de tallo verde.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Debe estar preparado y motivado.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Debe ser indiferente.',
+              texto: 'Fractura oblicua.',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto: 'Fractura transversal.',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Debe ser rápido pero no preciso.',
+              texto: 'Fractura conminuta.',
               esCorrecta: false,
             },
           ],
@@ -82,13 +82,14 @@ export default {
         {
           id: 3,
           texto:
-            '¿Qué acción debe tomar el primer auxiliador al llegar a la escena?',
-          imagen: require('@/assets/componentes/pregunta-img/Grupo 1103018.png'),
+            '¿Cuál es el principal riesgo de una fractura abierta?',
+          imagen: require('@/assets/componentes/pregunta-img/p3.png'),
+          barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Gritar por ayuda.', esCorrecta: false },
-            { id: 'b', texto: 'Identificarse.', esCorrecta: true },
-            { id: 'c', texto: 'Mover a todos los heridos.', esCorrecta: false },
-            { id: 'd', texto: 'Esperar sin hacer nada.', esCorrecta: false },
+            { id: 'a', texto: 'Dolor intenso.', esCorrecta: false },
+            { id: 'b', texto: 'Pérdida de funcionalidad.', esCorrecta: false },
+            { id: 'c', texto: 'Hemorragia.', esCorrecta: true },
+            { id: 'd', texto: 'Movimiento limitado.', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
           mensaje_incorrecto:
@@ -97,28 +98,28 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué debe hacer el primer auxiliador para prevenir más riesgos?',
-          imagen: require('@/assets/componentes/pregunta-img/Grupo 1103029.png'),
+            '¿Qué debe hacerse primero al atender una herida grave?',
+          imagen: require('@/assets/componentes/pregunta-img/p4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Llamar inmediatamente a la policía.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Mantener la calma e inspeccionar el lugar.',
+              texto: 'Evaluar el tipo de herida.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'Aplicar cremas o polvos.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'Evitar hablar con testigos.',
+              texto: 'Dejar la herida expuesta.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Dejar la escena lo más rápido posible.',
+              texto: 'Cubrir la herida con un vendaje sucio.',
               esCorrecta: false,
             },
           ],
@@ -129,27 +130,27 @@ export default {
         {
           id: 5,
           texto:
-            '¿Cuál de las siguientes acciones corresponde a alertar en primeros auxilios?',
-          imagen: require('@/assets/componentes/pregunta-img/Grupo 1103014.png'),
+            '¿Qué se debe evitar al inmovilizar a una persona con posible lesión de columna cervical?',
+          imagen: require('@/assets/componentes/pregunta-img/p1.png'),
           opciones: [
             {
               id: 'a',
-              texto: 'Realizar una evaluación primaria.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Llamar a emergencia y proporcionar información precisa.',
+              texto: 'Mover a la persona.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'Controlar el sangrado.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'Vigilar la evolución del paciente.',
+              texto: 'Llamar a una ambulancia.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Administrar medicación sin autorización.',
+              texto: 'Aplicar presión directa.',
               esCorrecta: false,
             },
           ],
@@ -159,30 +160,30 @@ export default {
         },
         {
           id: 6,
-          texto: '¿Qué se debe hacer durante la fase de examen?',
-          imagen: require('@/assets/componentes/pregunta-img/Grupo 1103016.png'),
+          texto: '¿Qué tipo de herida es causada por fricción y provoca desgarros en la piel?',
+          imagen: require('@/assets/componentes/pregunta-img/p2.png'),
           barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
-              texto: 'Aplicar primeros auxilios sin evaluar.',
+              texto: 'Incisas o cortantes.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Realizar una evaluación primaria y hacer preguntas clave.',
-              esCorrecta: true,
+                'Contusas.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Evitar cualquier contacto con el paciente.',
+              texto: 'Punzantes.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Solo esperar a los profesionales de la salud.',
-              esCorrecta: false,
+              texto: 'Por raspones.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
@@ -192,29 +193,29 @@ export default {
         {
           id: 7,
           texto:
-            '¿Qué implica la acción de vigilar en el contexto de primeros auxilios?',
-          imagen: require('@/assets/componentes/pregunta-img/Grupo 1103018.png'),
+            '¿Cuál es el primer paso para manejar una herida leve?',
+          imagen: require('@/assets/componentes/pregunta-img/p3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Ignorar las instrucciones previas.',
+              texto: 'Aplicar cremas o polvos.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Observar la evolución del paciente y verificar medidas aplicadas.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Administrar medicamentos sin consulta.',
+                'Levantar la extremidad.',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto: 'Lavar las manos.',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Solo llamar a la policía.',
+              texto: 'Colocar un vendaje.',
               esCorrecta: false,
             },
           ],
@@ -224,24 +225,25 @@ export default {
         },
         {
           id: 8,
-          texto: '¿Qué características debe tener el primer auxiliador?',
-          imagen: require('@/assets/componentes/pregunta-img/Grupo 1103029.png'),
+          texto: '¿Cuál es una señal de que el vendaje está demasiado apretado?',
+          imagen: require('@/assets/componentes/pregunta-img/p4.png'),
+          barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Ser indiferente y despreocupado.',
+              texto: 'La herida sigue sangrando.',
               esCorrecta: false,
             },
-            { id: 'b', texto: 'Ser solidario y respetuoso.', esCorrecta: true },
+            { id: 'b', texto: 'La extremidad está caliente.', esCorrecta: false },
             {
               id: 'c',
-              texto: 'Ser autoritario y dominante.',
+              texto: 'El paciente no siente dolor.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'No necesita ninguna capacitación.',
-              esCorrecta: false,
+              texto: 'La extremidad se torna fría.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
@@ -251,24 +253,24 @@ export default {
         {
           id: 9,
           texto:
-            '¿Cuál es una de las acciones iniciales del primer auxiliador?',
-          imagen: require('@/assets/componentes/pregunta-img/Grupo 1103014.png'),
+            '¿Qué tipo de fractura requiere generalmente intervención quirúrgica debido a la rotura total del ligamento?',
+          imagen: require('@/assets/componentes/pregunta-img/p1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Administrar medicamentos.', esCorrecta: false },
+            { id: 'a', texto: 'Grado I.', esCorrecta: false },
             {
               id: 'b',
-              texto: 'Identificarse y decir su nombre.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Mover al paciente sin evaluación.',
+              texto: 'Grado II.',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto: 'Grado III.',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Dejar la escena sin ayudar.',
+              texto: 'Grado IV.',
               esCorrecta: false,
             },
           ],
@@ -279,27 +281,28 @@ export default {
         {
           id: 10,
           texto:
-            '¿Qué debe hacer el primer auxiliador al observar la evolución del paciente?',
-          imagen: require('@/assets/componentes/pregunta-img/Grupo 1103016.png'),
+            '¿Qué debe hacerse si un hueso sobresale de la piel?',
+          imagen: require('@/assets/componentes/pregunta-img/p2.png'),
+          barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Ignorar cambios y no registrar nada.',
+              texto: 'Tratar de colocar el hueso en su sitio.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Verificar medidas aplicadas y registrar datos.',
+              texto: 'Aplicar presión alrededor de los bordes de la herida.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Hacer suposiciones sin evidencia.',
+              texto: 'Dejar que la herida sangre libremente.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Solo esperar a los servicios de emergencia.',
+              texto: 'Colocar un vendaje sucio sobre la herida.',
               esCorrecta: false,
             },
           ],
