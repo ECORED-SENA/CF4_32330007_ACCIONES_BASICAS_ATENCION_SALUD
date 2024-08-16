@@ -302,12 +302,7 @@ export default {
           nombre: 'Edgar Mauricio Cortes Garcia',
           cargo: 'Desarrollador <em>Full stack</em>',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Edgar Mauricio Cortes Garcia',
-          cargo: 'Actividad Didáctica',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
+        }
       ],
     },
     {
