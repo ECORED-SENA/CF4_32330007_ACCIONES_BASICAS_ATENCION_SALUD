@@ -23,7 +23,8 @@ export default {
       preguntas: [
         {
           id: 1,
-          texto: '¿Cuál es la característica principal de una fractura de tallo verde?',
+          texto:
+            '¿Cuál es la característica principal de una fractura de tallo verde?',
           imagen: require('@/assets/componentes/pregunta-img/p1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -42,7 +43,11 @@ export default {
               texto: 'Forma un ángulo respecto al eje del hueso.',
               esCorrecta: false,
             },
-            { id: 'd', texto: 'Crea una ruptura limpia y directa.', esCorrecta: false },
+            {
+              id: 'd',
+              texto: 'Crea una ruptura limpia y directa.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
           mensaje_incorrecto:
@@ -50,7 +55,8 @@ export default {
         },
         {
           id: 2,
-          texto: '¿Qué tipo de fractura se presenta en un ángulo recto respecto al eje del hueso?',
+          texto:
+            '¿Qué tipo de fractura se presenta en un ángulo recto respecto al eje del hueso?',
           imagen: require('@/assets/componentes/pregunta-img/p2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -81,8 +87,7 @@ export default {
         },
         {
           id: 3,
-          texto:
-            '¿Cuál es el principal riesgo de una fractura abierta?',
+          texto: '¿Cuál es el principal riesgo de una fractura abierta?',
           imagen: require('@/assets/componentes/pregunta-img/p3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -97,8 +102,7 @@ export default {
         },
         {
           id: 4,
-          texto:
-            '¿Qué debe hacerse primero al atender una herida grave?',
+          texto: '¿Qué debe hacerse primero al atender una herida grave?',
           imagen: require('@/assets/componentes/pregunta-img/p4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -160,7 +164,8 @@ export default {
         },
         {
           id: 6,
-          texto: '¿Qué tipo de herida es causada por fricción y provoca desgarros en la piel?',
+          texto:
+            '¿Qué tipo de herida es causada por fricción y provoca desgarros en la piel?',
           imagen: require('@/assets/componentes/pregunta-img/p2.png'),
           barajarRespuestas: false,
           opciones: [
@@ -171,8 +176,7 @@ export default {
             },
             {
               id: 'b',
-              texto:
-                'Contusas.',
+              texto: 'Contusas.',
               esCorrecta: false,
             },
             {
@@ -192,8 +196,7 @@ export default {
         },
         {
           id: 7,
-          texto:
-            '¿Cuál es el primer paso para manejar una herida leve?',
+          texto: '¿Cuál es el primer paso para manejar una herida leve?',
           imagen: require('@/assets/componentes/pregunta-img/p3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -204,8 +207,7 @@ export default {
             },
             {
               id: 'b',
-              texto:
-                'Levantar la extremidad.',
+              texto: 'Levantar la extremidad.',
               esCorrecta: false,
             },
             {
@@ -225,7 +227,8 @@ export default {
         },
         {
           id: 8,
-          texto: '¿Cuál es una señal de que el vendaje está demasiado apretado?',
+          texto:
+            '¿Cuál es una señal de que el vendaje está demasiado apretado?',
           imagen: require('@/assets/componentes/pregunta-img/p4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -234,7 +237,11 @@ export default {
               texto: 'La herida sigue sangrando.',
               esCorrecta: false,
             },
-            { id: 'b', texto: 'La extremidad está caliente.', esCorrecta: false },
+            {
+              id: 'b',
+              texto: 'La extremidad está caliente.',
+              esCorrecta: false,
+            },
             {
               id: 'c',
               texto: 'El paciente no siente dolor.',
@@ -280,8 +287,7 @@ export default {
         },
         {
           id: 10,
-          texto:
-            '¿Qué debe hacerse si un hueso sobresale de la piel?',
+          texto: '¿Qué debe hacerse si un hueso sobresale de la piel?',
           imagen: require('@/assets/componentes/pregunta-img/p2.png'),
           barajarRespuestas: true,
           opciones: [
