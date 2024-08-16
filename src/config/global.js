@@ -220,33 +220,43 @@ export default {
   ],
   referencias: [
     {
-      referencia:
-        'Fernández-Villacañas Martín, M. D. (2013). Primeros auxilios: ( ed.). Macmillan Iberia, S.A.',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/42972',
+      referencia: 'Creusport.com. (2016). Esguince 2 grado.',
     },
     {
       referencia:
-        'Pérez Aguilera, M. D. M. (2013). Primeros auxilios: ( ed.). Editorial CEP, S.L.',
+        'Damedeporte.wordpress. (2016). Esguince de tobillo en corredores: definición y tratamiento.',
       link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/50755',
+        'https://damedeporte.wordpress.com/2013/11/29/esguince-de-tobillo-en-corredores-definicion-y-tratamiento/',
+    },
+    {
+      referencia: 'Guía infantil. (2016). Las heridas y cortes en los niños.',
+      link:
+        'https://www.guiainfantil.com/articulos/salud/heridas/las-heridas-y-cortes-en-los-ninos/',
+    },
+    {
+      referencia: 'Guía tu cuerpo. (2016). Tipos de fracturas.',
+      link: 'http://www.guiatucuerpo.com/tipos-fracturas/',
     },
     {
       referencia:
-        'Seguridad del paciente. (2016). Guía curricular sobre seguridad del paciente.',
-      link: '',
+        'Jaramillo, J.  (2016). Técnicas de inmovilización y transporte en el trauma. UTP.',
+      link:
+        'http://blog.utp.edu.co/cirugia/files/2011/07/Técnicas-de-Inmovilización-y-Transporte.pdf',
+    },
+    {
+      referencia: 'Nevasport.com. (2016). Esguince 1 grado.',
+      link:
+        'http://www.nevasport.com/phorum/read.php?3,3143000,3143101,quote=1',
     },
     {
       referencia:
-        'Torres Nieto, H. (2012). Manual de primeros auxilios y brigadas de emergencia: ( ed.). Fundación Universitaria del Área Andina.',
+        'Preliminar (2016). PRIMEROS AUXILIOS (Vendaje y inmovilización)',
       link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/70932',
+        'http://premilitar-primeros-auxilios-vi.blogspot.com.co/2012/03/primeros-auxilios-vendaje-y.html',
     },
     {
-      referencia:
-        'Urgencias y emergencias médicas tanto para el personal paramédico y médico. (2013). Evaluación de la escena por un primer respondiente.',
-      link:
-        'http://urgenciasyemergenciasmedicas.blogspot.com/2013/01/3-evaluacion-de-la-escena-por-un-primer.html',
+      referencia: 'Tiposde. (2016). Tipos de heridas.',
+      link: 'http://tiposde.info/tipos-de-heridas/',
     },
   ],
   creditos: [
