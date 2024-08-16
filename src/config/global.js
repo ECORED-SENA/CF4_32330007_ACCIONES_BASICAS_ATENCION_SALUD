@@ -137,43 +137,48 @@ export default {
   },
   complementario: [
     {
-      tema: 'Primeros auxilios y evaluación de la escena',
+      tema: 'Lesiones osteomusculares',
       referencia:
-        'Martín Villaoslada, O. & Arenal Laza, C. (2020). Primeros auxilios. MF0272: ( ed.). Editorial Tutor Formación.',
-      tipo: 'Capítulo 1',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/125938',
-    },
-    {
-      tema: 'Actitud del auxiliador y valoración de la escena',
-      referencia:
-        'Agencia Nacional de Seguridad Vial (2023). MÓDULO 1 - DEBERES PRIMER RESPONDIENTE. [Archivo de video] Youtube.',
-      tipo: 'Video',
-      link: 'https://youtu.be/4JudaYDBcho?feature=shared',
-    },
-    {
-      tema: '¿Qué debe hacer un primer auxiliador?',
-      referencia:
-        'Tejero Fernández, J. (2022). Primeros auxilios. AFDA0211: (2 ed.). IC Editorial.',
-      tipo: 'Capítulo 3',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/227699',
-    },
-    {
-      tema: 'Cinemática del trauma',
-      referencia:
-        'Centro Nacional Operativo en Salud. (2015). CINEMATICA DEL TRAUMA 2. [Archivo de video] Youtube.',
+        'Grupo Empresas ASYSTE (2014). Primeros auxilios, Lesiones Osteomusculares. Capitulo 3. [Archivo de video] Youtube.',
       tipo: 'Video',
       link:
-        'https://www.youtube.com/watch?v=yO_K1wqTQ6c&ab_channel=CentroNacionalOperativoenSalud',
+        'https://www.youtube.com/watch?v=pZIG94etYk0&ab_channel=GrupoEmpresasASYSTE',
     },
     {
-      tema: 'Botiquín de primeros auxilios',
+      tema: 'Fracturas',
       referencia:
-        'Facultad de Medicina UNAM (2018). Botiquín. [Archivo de video] Youtube.',
+        'FisioOnline (2020). Tipos de FRACTURAS de hueso y su tratamiento y recuperación. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/uc421PwTEX8?si=g9oScsEb5wMAgog7',
+    },
+    {
+      tema: 'Luxaciones',
+      referencia:
+        'Clínica Alemana (2019). ¿Qué hacer en caso de luxación, esguince o fractura? | Clínica Alemana. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/IxFpbOI971Q?si=MfC5dcxQfhOijrW4',
+    },
+    {
+      tema: 'Esguince',
+      referencia:
+        'Fisioterapia a tu alcance (2021). Como saber si un ESGUINCE de tobillo es GRAVE.  [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/0rmpRcDV208?si=a0qcNIQHbEFj7UqO',
+    },
+    {
+      tema: 'Inmovilizaciones y vendajes',
+      referencia:
+        'CANAL PRIMEROSAUXILIOS (2014). Primeros Auxilios – Inmovilizaciones.  [Archivo de video] Youtube.',
       tipo: 'Video',
       link:
-        'https://www.youtube.com/watch?v=t5S7zmerXD4&ab_channel=Prevenci%C3%B3nSalud',
+        'https://www.youtube.com/watch?v=ePM5DG4M-mQ&ab_channel=CANALPRIMEROSAUXILIOS',
+    },
+    {
+      tema: 'Heridas',
+      referencia:
+        'CANAL PRIMEROSAUXILIOS. (2014). Primeros Auxilios – Heridas. [Archivo de video] Youtube',
+      tipo: 'Video',
+      link: 'https://youtu.be/MPeG0HYzcX0?si=i4vktroKHViDI3or',
     },
   ],
   glosario: [
