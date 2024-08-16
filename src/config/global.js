@@ -183,49 +183,39 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Escena',
+      termino: 'Cabestrillo',
       significado:
-        'ambiente en el que se produjo la lesión y que se debe valorar.',
+        'vendaje que pasa por el cuello y cae sobre el pecho para sostener el antebrazo o la mano afectada.',
     },
     {
-      termino: 'Evacuación',
+      termino: 'Contusión',
       significado:
-        'acción tendiente a establecer una barrera (distancia) entre una fuente de riesgo y las personas amenazadas, mediante el desplazamiento de estas.',
+        'tipo de lesión física no penetrante sobre un cuerpo humano.',
     },
     {
-      termino: 'Explosión',
+      termino: 'Edema',
       significado:
-        'liberación brusca de una gran cantidad de energía con desprendimiento de calor, luz y gases.',
+        'acumulación anormal de líquido en los espacios intersticiales de los tejidos.',
     },
     {
-      termino: 'Incendio',
+      termino: 'Flexión',
       significado:
-        'fenómeno que se presenta cuando uno o varios materiales combustibles o inflamables son consumidos de forma incontrolada por el fuego, generando pérdidas de vidas humanas, animales y bienes materiales.',
+        'movimiento de algunas articulaciones que disminuye el ángulo entre huesos articulados.',
     },
     {
-      termino: 'Posible',
+      termino: 'Fractura',
       significado:
-        'amenaza que, según el diagnóstico de sus condiciones inherentes, no ha sucedido, pero puede llegar a ocurrir.',
+        'rotura de un hueso ocasionada por la aplicación de una fuerza violenta sobre el cuerpo; interrupción de la continuidad del tejido óseo.',
     },
     {
-      termino: 'Primeros auxilios',
+      termino: 'Fractura de tallo verde',
       significado:
-        'son aquellas primeras medidas o cuidados adecuados que se ponen en práctica en forma provisional tan pronto se reconoce una emergencia.',
+        'fractura incompleta, el hueso no se rompe completamente. esta fractura se da en niños.',
     },
     {
-      termino: 'Recurso',
+      termino: 'Hematoma',
       significado:
-        'son las personas, elementos, equipos y herramientas con los cuales se cuenta para evitar un desastre y atender correctamente la situación en peligro.',
-    },
-    {
-      termino: 'Riesgo',
-      significado:
-        'probabilidad de que un objeto, sujeto, materia, sustancia o fenómeno pueda perturbar la integridad física de la persona o el medio.',
-    },
-    {
-      termino: 'Testigo',
-      significado:
-        'persona que presencia o adquiere directo y verdadero conocimiento de algo.',
+        'acumulación de sangre atrapada en los tejidos de la piel o de un órgano.',
     },
   ],
   referencias: [
