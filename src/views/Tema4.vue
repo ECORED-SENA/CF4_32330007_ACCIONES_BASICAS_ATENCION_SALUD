@@ -18,8 +18,8 @@
                   img(src='@/assets/curso/temas/19.svg' alt='AvatarTop')
               .d-flex.justify-content-center
                 .d-inline-block.p-2(style="background-color: #ffb27e")
-                  h5.mb-0 Gasa sobre heridas
-              p.text-center Colocar una gasa limpia antes del vendaje para evitar infecciones y proteger la herida o quemadura.
+                  h5.mb-0 Gasa sobre heridas 
+              p.text-center #[br] Colocar una gasa limpia antes del vendaje para evitar infecciones y proteger la herida o quemadura.
             .tarjeta.bg-white.p-4.h-100
               .row.justify-content-center.mb-3
                 .col-6
@@ -27,7 +27,7 @@
               .d-flex.justify-content-center
                 .d-inline-block.p-2(style="background-color: #ffb27e")
                   h5.mb-0 Vendaje de abajo hacia arriba
-              p.text-center Aplicar el vendaje desde abajo hacia arriba siguiendo la dirección de las manecillas del reloj para favorecer la circulación
+              p.text-center #[br] Aplicar el vendaje desde abajo hacia arriba siguiendo la dirección de las manecillas del reloj para favorecer la circulación.
             .tarjeta.bg-white.p-4.h-100
               .row.justify-content-center.mb-3
                 .col-6
@@ -35,7 +35,7 @@
               .d-flex.justify-content-center
                 .d-inline-block.p-2(style="background-color: #ffb27e")
                   h5.mb-0 Ajuste sin limitar circulación
-              p.text-center Asegurarse de ajustar el vendaje sin limitar la circulación; retirar si hay hormigueo o la extremidad se torna fría.
+              p.text-center #[br] Asegurarse de ajustar el vendaje sin limitar la circulación; retirar si hay hormigueo o la extremidad se torna fría.
             .tarjeta.bg-white.p-4.h-100
               .row.justify-content-center.mb-3
                 .col-6
@@ -43,7 +43,7 @@
               .d-flex.justify-content-center
                 .d-inline-block.p-2(style="background-color: #ffb27e")
                   h5.mb-0 Dedos destapados
-              p.text-center Dejar los dedos descubiertos para verificar que la circulación sanguínea no se vea afectada.
+              p.text-center #[br] Dejar los dedos descubiertos para verificar que la circulación sanguínea no se vea afectada.
             .tarjeta.bg-white.p-4.h-100
               .row.justify-content-center.mb-3
                 .col-6
@@ -51,7 +51,7 @@
               .d-flex.justify-content-center
                 .d-inline-block.p-2(style="background-color: #ffb27e")
                   h5.mb-0 Retirar objetos
-              p.text-center Quitar anillos, relojes y otros accesorios para evitar complicaciones durante el vendaje y posible hinchazón.
+              p.text-center #[br] Quitar anillos, relojes y otros accesorios para evitar complicaciones durante el vendaje y posible hinchazón.
     p.mb-5(data-aos='fade-right')
       span.azul Los tipos de vendaje son: 
     .row.justify-content-center.mb-5
@@ -86,7 +86,7 @@
           .row.justify-content-center.align-items-center
             .col-2.col-lg-2: img(src='@/assets/curso/temas/28.svg', alt='')
             .col-lg-10
-              h5.mb-3 En la extremidad superior 
+              h5.mb-3 Preparar el material 
               p.mb-0 Use un pañuelo triangular o ropa
         .tarjeta.p-3.mb-3(style="background-color: #FFEFE4")
           .row.justify-content-center.align-items-center

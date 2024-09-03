@@ -6,7 +6,8 @@
       .titulo-principal__numero
         span 5
       h1  Heridas
-    p.mb-5(data-aos='fade-right') Una herida es la pérdida de continuidad de la piel, generalmente causada por traumatismos. Las heridas pueden clasificarse en abiertas y cerradas, dependiendo de si los tejidos subyacentes quedan expuestos. #[span.azul El manejo adecuado de las heridas es crucial para prevenir infecciones y promover una cicatrización rápida y efectiva. #[br] Los tipos de heridas son: ]
+    p.mb-3(data-aos='fade-right') Una herida es la pérdida de continuidad de la piel, generalmente causada por traumatismos. Las heridas pueden clasificarse en abiertas y cerradas, dependiendo de si los tejidos subyacentes quedan expuestos. #[span.azul El manejo adecuado de las heridas es crucial para prevenir infecciones y promover una cicatrización rápida y efectiva.] 
+    p.mb-5 Los tipos de heridas son: 
     .row.justify-content-center.mb-5
       .col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
@@ -99,7 +100,7 @@
               .d-flex.justify-content-center
                 .d-inline-block.p-2(style="background-color: #ffb27e")
                   h5.mb-0 02
-              p.text-center Detener la hemorragia con presión directa usando un apósito limpio.
+              p.text-center Retirar joyas o accesorios si la herida es en las manos.
             .tarjeta.bg-white.p-4.h-100
               .row.justify-content-center.mb-3
                 .col-6

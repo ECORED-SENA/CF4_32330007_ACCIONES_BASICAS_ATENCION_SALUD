@@ -11,7 +11,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-1.col-4.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/1.svg', alt='')
       .col-lg-11(data-aos="fade-left")
-        p.mb-0 El componente de primeros auxilios está diseñada para proporcionar información esencial sobre el manejo inicial de lesiones osteomusculares y heridas. Estas lesiones, que incluyen fracturas, luxaciones y esguinces, pueden tener consecuencias graves si no se tratan adecuadamente. Por ello, es fundamental conocer los procedimientos básicos que se deben seguir para estabilizar al paciente y evitar complicaciones mayores mientras se espera la llegada de ayuda profesional.
+        p.mb-0 El componente de primeros auxilios está diseñado para proporcionar información esencial sobre el manejo inicial de lesiones osteomusculares y heridas. Estas lesiones, que incluyen fracturas, luxaciones y esguinces, pueden tener consecuencias graves si no se tratan adecuadamente. Por ello, es fundamental conocer los procedimientos básicos que se deben seguir para estabilizar al paciente y evitar complicaciones mayores mientras se espera la llegada de ayuda profesional.
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
         .tarjeta.p-4(style="background-color: #FFE0CB").mb-4

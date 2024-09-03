@@ -13,25 +13,25 @@
           .row.justify-content-center.align-items-center
             .col-2.col-lg-4: img(src='@/assets/curso/temas/13.svg', alt='')
             .col-lg-8
-              p.mb-0 Inflamación
+              p.mb-0 Dolor.
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.p-4.tarjeta-hover
           .row.justify-content-center.align-items-center
             .col-2.col-lg-4: img(src='@/assets/curso/temas/13.svg', alt='')
             .col-lg-8
-              p.mb-0 Prominencia ósea o depresión visible
+              p.mb-0 Hinchazón.
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.p-4.tarjeta-hover
           .row.justify-content-center.align-items-center
             .col-2.col-lg-4: img(src='@/assets/curso/temas/13.svg', alt='')
             .col-lg-8
-              p.mb-0 Dolor moderado
+              p.mb-0 Moretón.
       .col-lg-3
         .tarjeta.p-4.tarjeta-hover
           .row.justify-content-center.align-items-center
             .col-2.col-lg-4: img(src='@/assets/curso/temas/13.svg', alt='')
             .col-lg-8
-              p.mb-0 Pérdida de funcionalidad de la extremidad
+              p.mb-0 Movimiento limitado de la articulación.
     Separador 
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 3.1 Clasificación

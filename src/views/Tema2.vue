@@ -16,26 +16,26 @@
               .row.justify-content-center.align-items-center
                 .col-2.col-lg-4: img(src='@/assets/curso/temas/13.svg', alt='')
                 .col-lg-8
-                  p.mb-0 Inflamación
+                  p.mb-0 Inflamación.
           .col-lg-6
             .tarjeta.p-4.tarjeta-hover
               .row.justify-content-center.align-items-center
                 .col-2.col-lg-4: img(src='@/assets/curso/temas/13.svg', alt='')
                 .col-lg-8
-                  p.mb-0 Prominencia ósea o depresión visible
+                  p.mb-0 Prominencia ósea o depresión visible.
         .row.justify-content-center.mb-3
           .col-lg-6
             .tarjeta.p-4.tarjeta-hover
               .row.justify-content-center.align-items-center
                 .col-2.col-lg-4: img(src='@/assets/curso/temas/13.svg', alt='')
                 .col-lg-8
-                  p.mb-0 Dolor moderado
+                  p.mb-0 Dolor moderado.
           .col-lg-6
             .tarjeta.p-4.tarjeta-hover
               .row.justify-content-center.align-items-center
                 .col-2.col-lg-4: img(src='@/assets/curso/temas/13.svg', alt='')
                 .col-lg-8
-                  p.mb-0 Pérdida de funcionalidad de la extremidad
+                  p.mb-0 Pérdida de funcionalidad de la extremidad.
     .titulo-tres: h3 Manejo inicial de luxaciones
     p.mb-5(data-aos='fade-right') El primer respondiente debe: 
     .row.justify-content-center.mb-5
@@ -53,12 +53,12 @@
         .tarjeta.p-4.t-1.h-100 
           .row.justify-content-center.mb-5
             .col-5: img(src='@/assets/curso/temas/17.svg', alt='')
-          p.text-center Colocar al lesionado en una posición cómoda hasta su traslado, para evitar dolor.
+          p.text-center No suministrar medicamentos.
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.p-4.t-1.h-100 
           .row.justify-content-center.mb-5
             .col-5: img(src='@/assets/curso/temas/18.svg', alt='')
-          p.text-center Colocar al lesionado en una posición cómoda hasta su traslado, para evitar dolor.
+          p.text-center No intentar colocar el hueso en su sitio.
 
 
 
