@@ -43,7 +43,7 @@
         .tarjeta.p-4.t-1.h-100 
           .row.justify-content-center.mb-3
             .col-5: img(src='@/assets/curso/temas/15b.svg', style="max-width: 90px", alt='').mx-auto
-          p.text-center Inmovilizar la articulación afectada
+          p.text-center Inmovilizar la articulación afectada.
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.p-4.t-1.h-100 
           .row.justify-content-center.mb-3
