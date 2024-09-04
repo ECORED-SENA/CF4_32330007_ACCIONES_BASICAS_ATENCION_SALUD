@@ -84,33 +84,33 @@
           .col-lg-6.mb-3
             .tarjeta.p-4.tarjeta-hover.h-100
               .row.justify-content-center.align-items-center
-                .col-auto: img(src='@/assets/curso/temas/13.svg', alt='')
+                .col-auto: img(src='@/assets/curso/temas/13b.svg', alt='')
                 .col
                   p.mb-0 Dolor.
           .col-lg-6.mb-3
             .tarjeta.p-4.tarjeta-hover.h-100
               .row.justify-content-center.align-items-center
-                .col-auto: img(src='@/assets/curso/temas/13.svg', alt='')
+                .col-auto: img(src='@/assets/curso/temas/14b.svg', alt='')
                 .col
                   p.mb-0 Deformidad.
         .row.justify-content-center
           .col-lg-6.mb-3
             .tarjeta.p-4.tarjeta-hover.h-100
               .row.justify-content-center.align-items-center
-                .col-auto: img(src='@/assets/curso/temas/13.svg', alt='')
+                .col-auto: img(src='@/assets/curso/temas/15c.svg', alt='')
                 .col
                   p.mb-0 Hinchazón.
           .col-lg-6.mb-3
             .tarjeta.p-4.tarjeta-hover.h-100
               .row.justify-content-center.align-items-center
-                .col-auto: img(src='@/assets/curso/temas/13.svg', alt='')
+                .col-auto: img(src='@/assets/curso/temas/16c.svg', alt='')
                 .col
                   p.mb-0 Incapacidad para usar la extremidad.
         .row
           .col-lg-6
             .tarjeta.p-4.tarjeta-hover
               .row.justify-content-center.align-items-center
-                .col-auto: img(src='@/assets/curso/temas/13.svg', alt='')
+                .col-auto: img(src='@/assets/curso/temas/17c.svg', alt='')
                 .col
                   p.mb-0 Moretones.
     Separador

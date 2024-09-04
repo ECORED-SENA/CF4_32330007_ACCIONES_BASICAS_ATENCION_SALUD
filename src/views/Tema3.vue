@@ -11,25 +11,25 @@
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.p-4.tarjeta-hover
           .row.justify-content-center.align-items-center
-            .col-auto: img(src='@/assets/curso/temas/13.svg', alt='')
+            .col-auto: img(src='@/assets/curso/temas/3-1.svg', alt='')
             .col
               p.mb-0 Dolor.
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.p-4.tarjeta-hover
           .row.justify-content-center.align-items-center
-            .col-auto: img(src='@/assets/curso/temas/13.svg', alt='')
+            .col-auto: img(src='@/assets/curso/temas/3-2.svg', alt='')
             .col
               p.mb-0 Hinchazón.
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.p-4.tarjeta-hover
           .row.justify-content-center.align-items-center
-            .col-auto: img(src='@/assets/curso/temas/13.svg', alt='')
+            .col-auto: img(src='@/assets/curso/temas/3-3.svg', alt='')
             .col
               p.mb-0 Moretón.
       .col-lg-3
         .tarjeta.p-4.tarjeta-hover
           .row.justify-content-center.align-items-center
-            .col-auto: img(src='@/assets/curso/temas/13.svg', alt='')
+            .col-auto: img(src='@/assets/curso/temas/3-4.svg', alt='')
             .col
               p.mb-0 Movimiento limitado de la articulación.
     Separador 
@@ -66,26 +66,26 @@
           .col-lg-6.mb-3
             .tarjeta.p-4.tarjeta-hover
               .row.justify-content-center.align-items-center
-                .col-auto: img(src='@/assets/curso/temas/13.svg', alt='').mx-auto
+                .col-auto: img(src='@/assets/curso/temas/3-5.svg', alt='').mx-auto
                 .col
                   p.mb-0 Reposo.
           .col-lg-6.mb-3
             .tarjeta.p-4.tarjeta-hover
               .row.justify-content-center.align-items-center
-                .col-auto: img(src='@/assets/curso/temas/13.svg', alt='').mx-auto
+                .col-auto: img(src='@/assets/curso/temas/3-6.svg', alt='').mx-auto
                 .col
                   p.mb-0 Inmovilización.
         .row.justify-content-center
           .col-lg-6.mb-3
             .tarjeta.p-4.tarjeta-hover.h-100
               .row.justify-content-center.align-items-center
-                .col-auto: img(src='@/assets/curso/temas/13.svg', alt='').mx-auto
+                .col-auto: img(src='@/assets/curso/temas/3-7.svg', alt='').mx-auto
                 .col
                   p.mb-0 Aplicación de hielo.
           .col-lg-6.mb-3
             .tarjeta.p-4.tarjeta-hover
               .row.justify-content-center.align-items-center
-                .col-auto: img(src='@/assets/curso/temas/13.svg', alt='').mx-auto
+                .col-auto: img(src='@/assets/curso/temas/3-8.svg', alt='').mx-auto
                 .col
                   p.mb-0 Elevación de la extremidad.
 

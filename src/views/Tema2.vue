@@ -14,26 +14,26 @@
           .col-lg-6.mb-3
             .tarjeta.p-4.tarjeta-hover.h-100
               .row.justify-content-center.align-items-center
-                .col-auto: img(src='@/assets/curso/temas/13.svg', alt='').mx-auto
+                .col-auto: img(src='@/assets/curso/temas/1c.svg', alt='').mx-auto
                 .col
                   p.mb-0 Inflamación.
           .col-lg-6.mb-3
             .tarjeta.p-4.tarjeta-hover.h-100
               .row.justify-content-center.align-items-center
-                .col-auto: img(src='@/assets/curso/temas/13.svg', alt='').mx-auto
+                .col-auto: img(src='@/assets/curso/temas/2c.svg', alt='').mx-auto
                 .col
                   p.mb-0 Prominencia ósea o depresión visible.
         .row.justify-content-center.mb-3
           .col-lg-6.mb-3
             .tarjeta.p-4.tarjeta-hover.h-100
               .row.justify-content-center.align-items-center
-                .col-auto: img(src='@/assets/curso/temas/13.svg', alt='').mx-auto
+                .col-auto: img(src='@/assets/curso/temas/3c.svg', alt='').mx-auto
                 .col
                   p.mb-0 Dolor moderado.
           .col-lg-6.mb-3
             .tarjeta.p-4.tarjeta-hover.h-100
               .row.justify-content-center.align-items-center
-                .col-auto: img(src='@/assets/curso/temas/13.svg', alt='').mx-auto
+                .col-auto: img(src='@/assets/curso/temas/4c.svg', alt='').mx-auto
                 .col
                   p.mb-0 Pérdida de funcionalidad de la extremidad.
     .titulo-tres: h3 Manejo inicial de luxaciones
