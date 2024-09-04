@@ -58,15 +58,15 @@
       .col-lg-6.mb-lg-0.mb-3
         .tarjeta.p-4(style="background-color: #EEFAD1")
           .row.justify-content-center.align-items-center
-            .col-2.col-lg-2: img(src='@/assets/curso/temas/24.png', alt='')
-            .col-lg-8
+            .col-auto: img(src='@/assets/curso/temas/24.png', style="max-width: 92px", alt='')
+            .col
               h4 Venda de gasa
               p.mb-0 Rollo de algodón suave que se adapta a cualquier parte del cuerpo; usado para sujetar apósitos y controlar hemorragias.
       .col-lg-6.mb-lg-0.mb-3
         .tarjeta.p-4(style="background-color: #EEFAD1")
           .row.justify-content-center.align-items-center
-            .col-2.col-lg-2: img(src='@/assets/curso/temas/25.png', alt='')
-            .col-lg-8
+            .col-auto: img(src='@/assets/curso/temas/25.png', style="max-width: 92px", alt='')
+            .col
               h4 Venda elástica
 
               p.mb-0 Material de algodón con elástico; usado para sujetar otros vendajes, cuidando de no apretar demasiado.
@@ -84,33 +84,33 @@
       .col-lg-6.mb-lg-0.mb-3
         .tarjeta.p-3.mb-3(style="background-color: #FFEFE4")
           .row.justify-content-center.align-items-center
-            .col-2.col-lg-2: img(src='@/assets/curso/temas/28.svg', alt='')
-            .col-lg-10
-              h5.mb-3 Preparar el material 
-              p.mb-0 Use un pañuelo triangular o ropa
+            .col-auto: img(src='@/assets/curso/temas/28.svg', alt='')
+            .col
+              h5.mb-2 Preparar el material 
+              p.mb-0 Use un pañuelo triangular o ropa.
         .tarjeta.p-3.mb-3(style="background-color: #FFEFE4")
           .row.justify-content-center.align-items-center
-            .col-2.col-lg-2: img(src='@/assets/curso/temas/28.svg', alt='')
-            .col-lg-10
-              h5.mb-3 Colocar el cabestrillo
+            .col-auto: img(src='@/assets/curso/temas/28.svg', alt='')
+            .col
+              h5.mb-2 Colocar el cabestrillo
               p.mb-0 Coloque el pañuelo bajo el brazo lesionado y ate detrás del cuello.
         .tarjeta.p-3.mb-3(style="background-color: #FFEFE4")
           .row.justify-content-center.align-items-center
-            .col-2.col-lg-2: img(src='@/assets/curso/temas/28.svg', alt='')
-            .col-lg-10
-              h5.mb-3 Ajustar
+            .col-auto: img(src='@/assets/curso/temas/28.svg', alt='')
+            .col
+              h5.mb-2 Ajustar
               p.mb-0 Verifique que no esté apretado y el brazo esté cómodo.
         .tarjeta.p-3.mb-3(style="background-color: #FFEFE4")
           .row.justify-content-center.align-items-center
-            .col-2.col-lg-2: img(src='@/assets/curso/temas/28.svg', alt='')
-            .col-lg-10
-              h5.mb-3 Monitorear
+            .col-auto: img(src='@/assets/curso/temas/28.svg', alt='')
+            .col
+              h5.mb-2 Monitorear
               p.mb-0 Deje los dedos expuestos y ajuste si hay entumecimiento.
         .tarjeta.p-3.mb-3(style="background-color: #FFEFE4")
           .row.justify-content-center.align-items-center
-            .col-2.col-lg-2: img(src='@/assets/curso/temas/28.svg', alt='')
-            .col-lg-10
-              h5.mb-3 Evitar movimientos
+            .col-auto: img(src='@/assets/curso/temas/28.svg', alt='')
+            .col
+              h5.mb-2 Evitar movimientos
               p.mb-0 No mueva la extremidad hasta recibir atención médica.
                 br
                 |Verifique que no esté apretado y el brazo esté cómodo.

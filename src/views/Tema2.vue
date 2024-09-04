@@ -10,54 +10,54 @@
     .row.justify-content-center.mb-5
       .col-lg-6.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/14.png', alt='')
       .col-lg-6
-        .row.justify-content-center.mb-3
-          .col-lg-6
-            .tarjeta.p-4.tarjeta-hover
+        .row.justify-content-center.align-items-stretch
+          .col-lg-6.mb-3
+            .tarjeta.p-4.tarjeta-hover.h-100
               .row.justify-content-center.align-items-center
-                .col-2.col-lg-4: img(src='@/assets/curso/temas/13.svg', alt='')
-                .col-lg-8
+                .col-auto: img(src='@/assets/curso/temas/13.svg', alt='').mx-auto
+                .col
                   p.mb-0 Inflamación.
-          .col-lg-6
-            .tarjeta.p-4.tarjeta-hover
+          .col-lg-6.mb-3
+            .tarjeta.p-4.tarjeta-hover.h-100
               .row.justify-content-center.align-items-center
-                .col-2.col-lg-4: img(src='@/assets/curso/temas/13.svg', alt='')
-                .col-lg-8
+                .col-auto: img(src='@/assets/curso/temas/13.svg', alt='').mx-auto
+                .col
                   p.mb-0 Prominencia ósea o depresión visible.
         .row.justify-content-center.mb-3
-          .col-lg-6
-            .tarjeta.p-4.tarjeta-hover
+          .col-lg-6.mb-3
+            .tarjeta.p-4.tarjeta-hover.h-100
               .row.justify-content-center.align-items-center
-                .col-2.col-lg-4: img(src='@/assets/curso/temas/13.svg', alt='')
-                .col-lg-8
+                .col-auto: img(src='@/assets/curso/temas/13.svg', alt='').mx-auto
+                .col
                   p.mb-0 Dolor moderado.
-          .col-lg-6
-            .tarjeta.p-4.tarjeta-hover
+          .col-lg-6.mb-3
+            .tarjeta.p-4.tarjeta-hover.h-100
               .row.justify-content-center.align-items-center
-                .col-2.col-lg-4: img(src='@/assets/curso/temas/13.svg', alt='')
-                .col-lg-8
+                .col-auto: img(src='@/assets/curso/temas/13.svg', alt='').mx-auto
+                .col
                   p.mb-0 Pérdida de funcionalidad de la extremidad.
     .titulo-tres: h3 Manejo inicial de luxaciones
     p.mb-5(data-aos='fade-right') El primer respondiente debe: 
     .row.justify-content-center.mb-5
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.p-4.t-1.h-100 
-          .row.justify-content-center.mb-5
-            .col-5: img(src='@/assets/curso/temas/15.svg', alt='')
+          .row.justify-content-center.mb-3
+            .col-5: img(src='@/assets/curso/temas/15b.svg', style="max-width: 90px", alt='').mx-auto
           p.text-center Inmovilizar la articulación afectada
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.p-4.t-1.h-100 
-          .row.justify-content-center.mb-5
-            .col-5: img(src='@/assets/curso/temas/16.svg', alt='')
+          .row.justify-content-center.mb-3
+            .col-5: img(src='@/assets/curso/temas/16b.svg', style="max-width: 90px", alt='').mx-auto
           p.text-center Colocar al lesionado en una posición cómoda hasta su traslado, para evitar dolor.
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.p-4.t-1.h-100 
-          .row.justify-content-center.mb-5
-            .col-5: img(src='@/assets/curso/temas/17.svg', alt='')
+          .row.justify-content-center.mb-3
+            .col-5: img(src='@/assets/curso/temas/17b.svg', style="max-width: 90px", alt='').mx-auto
           p.text-center No suministrar medicamentos.
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.p-4.t-1.h-100 
-          .row.justify-content-center.mb-5
-            .col-5: img(src='@/assets/curso/temas/18.svg', alt='')
+          .row.justify-content-center.mb-3
+            .col-5: img(src='@/assets/curso/temas/18b.svg', style="max-width: 90px", alt='').mx-auto
           p.text-center No intentar colocar el hueso en su sitio.
 
 

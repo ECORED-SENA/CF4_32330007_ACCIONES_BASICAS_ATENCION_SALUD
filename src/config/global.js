@@ -5,7 +5,7 @@ export default {
     descripcionCurso:
       'Este componente aborda el manejo inicial de lesiones osteomusculares y heridas. Se detallan los tipos de fracturas, luxaciones, y esguinces, junto con sus síntomas y tratamientos. Incluye instrucciones para la inmovilización y vendajes, así como el manejo de heridas leves y graves. El objetivo es prevenir complicaciones y proporcionar primeros auxilios adecuados hasta la llegada de ayuda profesional.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal2.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -300,7 +300,7 @@ export default {
         },
         {
           nombre: 'Edgar Mauricio Cortes Garcia',
-          cargo: 'Desarrollador <em>Full stack</em>',
+          cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],

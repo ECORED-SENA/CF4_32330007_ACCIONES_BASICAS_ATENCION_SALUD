@@ -77,42 +77,42 @@
               figure
                 img(src='@/assets/curso/temas/11.svg', alt='Texto que describa la imagen')
     p.mb-5(data-aos='fade-right') Los síntomas de una fractura son: 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.align-items-stretch.mb-5
       .col-lg-6.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/12.png', alt='')
       .col-lg-6(data-aos="fade-left")
-        .row.justify-content-center.mb-3
-          .col-lg-6
-            .tarjeta.p-4.tarjeta-hover
+        .row.justify-content-center
+          .col-lg-6.mb-3
+            .tarjeta.p-4.tarjeta-hover.h-100
               .row.justify-content-center.align-items-center
-                .col-2.col-lg-4: img(src='@/assets/curso/temas/13.svg', alt='')
-                .col-lg-8
-                  p.mb-0 Dolor
-          .col-lg-6
-            .tarjeta.p-4.tarjeta-hover
+                .col-auto: img(src='@/assets/curso/temas/13.svg', alt='')
+                .col
+                  p.mb-0 Dolor.
+          .col-lg-6.mb-3
+            .tarjeta.p-4.tarjeta-hover.h-100
               .row.justify-content-center.align-items-center
-                .col-2.col-lg-4: img(src='@/assets/curso/temas/13.svg', alt='')
-                .col-lg-8
-                  p.mb-0 Deformidad
-        .row.justify-content-center.mb-3
-          .col-lg-6
-            .tarjeta.p-4.tarjeta-hover
+                .col-auto: img(src='@/assets/curso/temas/13.svg', alt='')
+                .col
+                  p.mb-0 Deformidad.
+        .row.justify-content-center
+          .col-lg-6.mb-3
+            .tarjeta.p-4.tarjeta-hover.h-100
               .row.justify-content-center.align-items-center
-                .col-2.col-lg-4: img(src='@/assets/curso/temas/13.svg', alt='')
-                .col-lg-8
-                  p.mb-0 Hinchazón
-          .col-lg-6
-            .tarjeta.p-4.tarjeta-hover
+                .col-auto: img(src='@/assets/curso/temas/13.svg', alt='')
+                .col
+                  p.mb-0 Hinchazón.
+          .col-lg-6.mb-3
+            .tarjeta.p-4.tarjeta-hover.h-100
               .row.justify-content-center.align-items-center
-                .col-2.col-lg-4: img(src='@/assets/curso/temas/13.svg', alt='')
-                .col-lg-8
-                  p.mb-0 Incapacidad para usar la extremidad
+                .col-auto: img(src='@/assets/curso/temas/13.svg', alt='')
+                .col
+                  p.mb-0 Incapacidad para usar la extremidad.
         .row
           .col-lg-6
             .tarjeta.p-4.tarjeta-hover
               .row.justify-content-center.align-items-center
-                .col-2.col-lg-4: img(src='@/assets/curso/temas/13.svg', alt='')
-                .col-lg-8
-                  p.mb-0 Moretones
+                .col-auto: img(src='@/assets/curso/temas/13.svg', alt='')
+                .col
+                  p.mb-0 Moretones.
     Separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.2 Manejo inicial de las fracturas
