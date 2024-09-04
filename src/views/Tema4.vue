@@ -19,7 +19,7 @@
               .d-flex.justify-content-center
                 .d-inline-block.p-2(style="background-color: #ffb27e")
                   h5.mb-0 Gasa sobre heridas 
-              p.text-center #[br] Colocar una gasa limpia antes del vendaje para evitar infecciones y proteger la herida o quemadura.
+              p.text-center.mt-3 Colocar una gasa limpia antes del vendaje para evitar infecciones y proteger la herida o quemadura.
             .tarjeta.bg-white.p-4.h-100
               .row.justify-content-center.mb-3
                 .col-6
@@ -27,7 +27,7 @@
               .d-flex.justify-content-center
                 .d-inline-block.p-2(style="background-color: #ffb27e")
                   h5.mb-0 Vendaje de abajo hacia arriba
-              p.text-center #[br] Aplicar el vendaje desde abajo hacia arriba siguiendo la dirección de las manecillas del reloj para favorecer la circulación.
+              p.text-center.mt-3 Aplicar el vendaje desde abajo hacia arriba siguiendo la dirección de las manecillas del reloj para favorecer la circulación.
             .tarjeta.bg-white.p-4.h-100
               .row.justify-content-center.mb-3
                 .col-6
@@ -35,7 +35,7 @@
               .d-flex.justify-content-center
                 .d-inline-block.p-2(style="background-color: #ffb27e")
                   h5.mb-0 Ajuste sin limitar circulación
-              p.text-center #[br] Asegurarse de ajustar el vendaje sin limitar la circulación; retirar si hay hormigueo o la extremidad se torna fría.
+              p.text-center.mt-3 Asegurarse de ajustar el vendaje sin limitar la circulación; retirar si hay hormigueo o la extremidad se torna fría.
             .tarjeta.bg-white.p-4.h-100
               .row.justify-content-center.mb-3
                 .col-6
@@ -43,7 +43,7 @@
               .d-flex.justify-content-center
                 .d-inline-block.p-2(style="background-color: #ffb27e")
                   h5.mb-0 Dedos destapados
-              p.text-center #[br] Dejar los dedos descubiertos para verificar que la circulación sanguínea no se vea afectada.
+              p.text-center.mt-3 Dejar los dedos descubiertos para verificar que la circulación sanguínea no se vea afectada.
             .tarjeta.bg-white.p-4.h-100
               .row.justify-content-center.mb-3
                 .col-6
