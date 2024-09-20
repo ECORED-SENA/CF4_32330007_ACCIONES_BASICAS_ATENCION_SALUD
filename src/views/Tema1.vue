@@ -119,8 +119,8 @@
     p.mb-5(data-aos='fade-right') El manejo inicial consiste en una adecuada inmovilización para prevenir complicaciones mayores. Las recomendaciones para un primer respondiente incluyen:
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/vJ0kG6734Rg?si=WoT3mJSvhGHD289W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Manejo inicial fracturas
         
 
 
