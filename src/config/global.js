@@ -139,7 +139,7 @@ export default {
     {
       tema: 'Lesiones osteomusculares',
       referencia:
-        'Grupo Empresas ASYSTE (2014). Primeros auxilios, Lesiones Osteomusculares. Capitulo 3. [Archivo de video] Youtube.',
+        'Grupo Empresas ASYSTE (2014). Primeros auxilios, Lesiones Osteomusculares. Capitulo 3. [Archivo de video] YouTube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=pZIG94etYk0&ab_channel=GrupoEmpresasASYSTE',
@@ -147,28 +147,28 @@ export default {
     {
       tema: 'Fracturas',
       referencia:
-        'FisioOnline (2020). Tipos de FRACTURAS de hueso y su tratamiento y recuperación. [Archivo de video] Youtube.',
+        'FisioOnline (2020). Tipos de FRACTURAS de hueso y su tratamiento y recuperación. [Archivo de video] YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/uc421PwTEX8?si=g9oScsEb5wMAgog7',
     },
     {
       tema: 'Luxaciones',
       referencia:
-        'Clínica Alemana (2019). ¿Qué hacer en caso de luxación, esguince o fractura? | Clínica Alemana. [Archivo de video] Youtube.',
+        'Clínica Alemana (2019). ¿Qué hacer en caso de luxación, esguince o fractura? | Clínica Alemana. [Archivo de video] YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/IxFpbOI971Q?si=MfC5dcxQfhOijrW4',
     },
     {
       tema: 'Esguince',
       referencia:
-        'Fisioterapia a tu alcance (2021). Como saber si un ESGUINCE de tobillo es GRAVE.  [Archivo de video] Youtube.',
+        'Fisioterapia a tu alcance (2021). Como saber si un ESGUINCE de tobillo es GRAVE.  [Archivo de video] YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/0rmpRcDV208?si=a0qcNIQHbEFj7UqO',
     },
     {
       tema: 'Inmovilizaciones y vendajes',
       referencia:
-        'CANAL PRIMEROSAUXILIOS (2014). Primeros Auxilios – Inmovilizaciones.  [Archivo de video] Youtube.',
+        'CANAL PRIMEROSAUXILIOS (2014). Primeros Auxilios – Inmovilizaciones.  [Archivo de video] YouTube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=ePM5DG4M-mQ&ab_channel=CANALPRIMEROSAUXILIOS',
@@ -176,7 +176,7 @@ export default {
     {
       tema: 'Heridas',
       referencia:
-        'CANAL PRIMEROSAUXILIOS. (2014). Primeros Auxilios – Heridas. [Archivo de video] Youtube',
+        'CANAL PRIMEROSAUXILIOS. (2014). Primeros Auxilios – Heridas. [Archivo de video] YouTube',
       tipo: 'Video',
       link: 'https://youtu.be/MPeG0HYzcX0?si=i4vktroKHViDI3or',
     },
@@ -210,7 +210,7 @@ export default {
     {
       termino: 'Fractura de tallo verde',
       significado:
-        'fractura incompleta, el hueso no se rompe completamente. esta fractura se da en niños.',
+        'fractura incompleta, el hueso no se rompe completamente. Esta fractura se da en niños.',
     },
     {
       termino: 'Hematoma',
@@ -236,12 +236,6 @@ export default {
     {
       referencia: 'Guía tu cuerpo. (2016). Tipos de fracturas.',
       link: 'http://www.guiatucuerpo.com/tipos-fracturas/',
-    },
-    {
-      referencia:
-        'Jaramillo, J.  (2016). Técnicas de inmovilización y transporte en el trauma. UTP.',
-      link:
-        'http://blog.utp.edu.co/cirugia/files/2011/07/Técnicas-de-Inmovilización-y-Transporte.pdf',
     },
     {
       referencia: 'Nevasport.com. (2016). Esguince 1 grado.',
@@ -284,8 +278,8 @@ export default {
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Paola Alexandra Moya',
-          cargo: 'valuadora instruccional',
+          nombre: 'Paola Alexandra Moya Peralta',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -294,8 +288,8 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Carlos Julián Ramírez Benítez',
-          cargo: 'Diseñador de Contenidos Digitales',
+          nombre: 'Yerson Fabián Zárate Saavedra ',
+          cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {

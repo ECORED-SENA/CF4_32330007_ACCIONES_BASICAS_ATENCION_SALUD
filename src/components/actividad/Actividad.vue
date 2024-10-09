@@ -8,9 +8,7 @@
         <h2 class="titulo-tercero mb-0">
           {{ cuestionario.titulo }}
         </h2>
-        <p class="mb-0">
-          {{ cuestionario.introduccion }}
-        </p>
+        <p class="mb-0" v-html="cuestionario.introduccion"></p>
       </div>
     </div>
     <div class="tarjeta tarjeta--lightest-gray p-4 p-md-5">
@@ -29,6 +27,7 @@
       :preguntas-count="preguntas.length"
       :respuestas-length="respuestas.length"
       :continuar-disabled="continuarDisabled"
+      :respuestas="respuestas"
       class="mx-4 mx-md-5"
       @continuar="onContinuar"
       @reiniciar="onReiniciar"

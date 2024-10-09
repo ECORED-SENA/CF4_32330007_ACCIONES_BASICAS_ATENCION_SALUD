@@ -53,7 +53,7 @@
                   .d-flex.align-items-end.w-100.justify-content-center
                     .d-inline-block(style="background-color: #ffb27e").p-2.mb-3
                       h5.mb-0 Contusas
-                  p.mb-0.text-center Generalmente no sangran, tienen bordes irregulares y son causadas por golpes.
+                  p.mb-0.text-center Generalmente, no sangran, tienen bordes irregulares y son causadas por golpes.
           .col-lg-3.mb-4.mb-xl-0
             .tarjeta.tarjeta-slide.abajo.bg-white(@mouseover="indicadorTarjetaSlide = false")
               .tarjeta-slide__contenedor
@@ -133,7 +133,7 @@
                 .d-inline-block.p-2(style="background-color: #ffb27e")
                   h5.mb-0 06
               p.text-center Lavar la herida diariamente con agua, secar bien y cubrir si es necesario.
-    .titulo-tres: h3 Manejo de heridas leves
+    .titulo-tres: h3 Manejo de heridas graves
     p.mb-5(data-aos='fade-right') El manejo de heridas graves requiere una atención inmediata y cuidadosa para evitar complicaciones y salvar la vida del paciente. #[span.azul Los siguientes pasos son esenciales para tratar heridas graves: ]
     PasosA.color-acento-contenido.mb-5(tipo="n")
       .row(titulo="")
