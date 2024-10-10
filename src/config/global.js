@@ -252,6 +252,10 @@ export default {
       referencia: 'Tiposde. (2016). Tipos de heridas.',
       link: 'http://tiposde.info/tipos-de-heridas/',
     },
+    {
+      referencia:
+        'Jaramillo, J. (2016). Técnicas de inmovilización y transporte en el trauma. UTP.',
+    },
   ],
   creditos: [
     {

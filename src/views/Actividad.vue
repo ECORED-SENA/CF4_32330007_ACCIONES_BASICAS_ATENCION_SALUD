@@ -31,12 +31,12 @@ export default {
             {
               id: 'a',
               texto: 'Es una fractura incompleta, característica de los niños.',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'b',
               texto: 'El hueso se rompe en varios pedazos.',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'c',
